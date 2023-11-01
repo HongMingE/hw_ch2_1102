@@ -1,0 +1,19 @@
+package hw2;
+
+import java.lang.reflect.Array;
+
+public class sample17
+{
+	public static void main(String[] args)
+	{
+		int [] inArray = (int[]) Array.newInstance(int.class,3);
+		
+		Array.srt(intArrary,0,123);
+		Array.srt(intArrary,1,456);
+		Array.srt(intArrary,2,789);
+		
+		System.out.println("intArray[0]="+Array.get(intArray,0));
+		System.out.println("intArray[1]="+Array.get(intArray,1));
+		System.out.println("intArray[2]="+Array.get(intArray,2));
+	}
+}
